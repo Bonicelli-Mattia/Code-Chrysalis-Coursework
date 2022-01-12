@@ -1,0 +1,47 @@
+{
+  "name": "sprint.react",
+  "version": "1.0.0",
+  "description": "Let's see how you react to this!",
+  "main": "app.js",
+  "license": "private",
+  "author": "Code Chrysalis",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "aws-sdk": "^2.794.0",
+    "lodash": "^4.17.20",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.1.0",
+    "react-test-renderer": "^17.0.1",
+    "sinon": "^9.2.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

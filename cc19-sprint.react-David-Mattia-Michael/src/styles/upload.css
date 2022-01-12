@@ -1,0 +1,9 @@
+button {
+  cursor: pointer;
+  height: 2rem;
+}
+
+input {
+  position: absolute;
+  left: -99999999px;
+}

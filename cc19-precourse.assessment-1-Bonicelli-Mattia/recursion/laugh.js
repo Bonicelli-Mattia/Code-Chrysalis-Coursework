@@ -1,0 +1,3 @@
+/* exported laugh */
+
+function laugh() {}

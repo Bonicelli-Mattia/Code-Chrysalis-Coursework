@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#app {
+    height: 80vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.app-title {
+    width: 100%;
+}
+
+.sidebar {
+    padding: 10px;
+    height: 80%;
+    width: 20%;
+    background:blue; 
+}
+
+.note {
+    padding: 10px;
+    height: 80%;
+    width: 60%;
+    background: lightseagreen;
+}
+
+.active-note {
+    background: purple;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "cc19-precourse.node",
+  "version": "1.0.0",
+  "description": "- Node を自分のコンピューターにダウンロードする。\r - Node を使って JavaScript のファイルを動かしてみる。\r - パッケージマネージャーを使用してリポジトリを設定する。\r - パッケージマネージャーを使用して依存パッケージを追加する。\r - あるファイルから関数をエクスポートして、プロジェクト内にある他のモジュールで使用する。\r - 他のファイルから関数をインポートして呼び出すことができる。",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.3",
+    "crypto": "^1.0.1",
+    "underscore": "^1.12.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "secret": "node index.js getSecretCode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bonicelli-Mattia/cc19-precourse.node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bonicelli-Mattia/cc19-precourse.node/issues"
+  },
+  "homepage": "https://github.com/Bonicelli-Mattia/cc19-precourse.node#readme"
+}

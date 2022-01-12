@@ -1,0 +1,5 @@
+/node_modules/
+/vendor/
+/spec/
+/lib/
+karma.conf.js

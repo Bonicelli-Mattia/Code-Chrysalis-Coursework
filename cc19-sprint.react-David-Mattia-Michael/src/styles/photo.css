@@ -1,0 +1,16 @@
+.single-photo {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-photo > img {
+  max-width: 85vw;
+  max-height: 85vh;
+}
+
+img {
+  text-align: center;
+  font-size: x-large;
+}

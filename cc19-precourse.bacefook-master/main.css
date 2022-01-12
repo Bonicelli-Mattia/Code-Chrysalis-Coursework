@@ -1,0 +1,104 @@
+/* hides scrollbars cause I don't like scrollbars, you can still scroll though */
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+body {
+    background-color: #212329;
+    color: #fff;
+}
+.flexContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.column {
+    flex-basis: 45%;
+}
+.column > h1 {
+    text-align: center;
+}
+
+.post {
+    background-color: #5f6481;
+    margin-bottom: 30px;
+    padding: 4px 0px 0px 8px;
+}
+.post > img {
+    max-width:200px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+    padding: 5px 0px 5px 0px;
+}
+.timestamp, .author, #userName {
+    color: #ff9b05;
+}
+.author {
+    float:right;
+}
+
+#userName {
+    display: inline;
+    text-align: left;
+}
+textarea {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background-color:#5f6481;
+    color:#fff;
+    width: 45vw;
+    min-height: 65px;
+    height: 65px;
+    resize: vertical;
+    border: none;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 50px;
+}
+#publishButton {
+    float:right;
+    background-color: #b36d06;
+    color: #fff;
+    border-radius: 10px;
+}
+#helpBtn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 72px;
+    width: 45vw;
+    height: 55vh;
+}
+#message {
+    display: none;
+    background: #5f6481;
+    max-width: 45vw;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    position: relative;
+}
+#message:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #5f6481;
+    border-top: 10px solid #5f6481;
+    border-bottom: 10px solid transparent;
+    right: 25%;
+    bottom: -20px;
+}
+#veryUsefulAssistant{
+    display:none;
+    background-image: url(images/assistant.png);
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: center; 
+    background-size: contain;
+    position: relative;
+    float:right;
+    width: 15vw;
+    height: 15vh;
+}
